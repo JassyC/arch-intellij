@@ -1,5 +1,5 @@
 FROM binhex/arch-basegui
-MAINTAINER brunnels
+MAINTAINER jassycliq
 
 # additional files
 ##################
@@ -26,7 +26,7 @@ VOLUME /config
 # map /data to host defined config path (used to store data from app)
 VOLUME /data
 
-VOLUME /opt/intellij
+VOLUME /opt/AndroidStudioPreview4.0
 
 # set permissions
 #################
